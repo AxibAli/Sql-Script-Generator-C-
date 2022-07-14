@@ -11,9 +11,9 @@ namespace SQLScriptGeneratorApp
     {
         static void Main()
         {
-            var fileName         = @"C:\Users\Azib\Downloads\csharp-sql-script-generator-master\SQLBackup\backup.sql";
+            var fileName         = @"C:\Users\Azib\source\repos\Sql-Script-Generator-CSharp\SQLBackup\WhatsappMiddlewarebackup.sql";
             var connectionString = $"Data Source=(LocalDb)\\MSSQLLocalDB; Database=LostAndFound; User ID=azib; Password=azib1234;";
-            var databaseName     = "LostAndFound";
+            var databaseName     = "WhatsappMiddleware";
             var schemaName       = "dbo";
 
             if (File.Exists(fileName))
